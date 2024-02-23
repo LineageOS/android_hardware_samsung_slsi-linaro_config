@@ -40,3 +40,6 @@ endif
 ifeq ($(BOARD_USES_EXYNOS_GRALLOC_VERSION),4)
 $(call soong_config_set,exynosgraphicbuffer,gralloc_version,four)
 endif
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos
