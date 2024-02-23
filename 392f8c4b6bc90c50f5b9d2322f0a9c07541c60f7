@@ -16,6 +16,24 @@
       "message": "I don\u0027t quite like this since it introduces a dependency n Ib26e83e10aeb6c107fd6e5757185c05cd6665760 (PRODUCT_SOONG_NAMESPACES is not a boardconfig variable on aosp)",
       "revId": "392f8c4b6bc90c50f5b9d2322f0a9c07541c60f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5e8c501_68bc3fa4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-23T18:46:41Z",
+      "side": 1,
+      "message": "I agree actually - any alternative solution?\n\nThe issue is that mapper4 conflicts with amlogic devices when present in tree.",
+      "parentUuid": "125abd0b_9fb0b5b0",
+      "revId": "392f8c4b6bc90c50f5b9d2322f0a9c07541c60f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
