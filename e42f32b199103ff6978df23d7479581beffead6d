@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7f40a74_74eb98e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2024-02-26T00:21:13Z",
+      "side": 1,
+      "message": "I fixed all the build errors in this set of 6 patches. Each slsi-lenovo directory is namespaced. Some lower level directories needed their own namespaces to make the build happy. Troika and dopinder build fine.",
+      "revId": "e42f32b199103ff6978df23d7479581beffead6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
