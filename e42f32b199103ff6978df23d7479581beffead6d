@@ -33,6 +33,24 @@
       "message": "Same comment as on 383870 applies here",
       "revId": "e42f32b199103ff6978df23d7479581beffead6d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95f49224_a8c5a8a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-26T16:40:08Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "c858425f_d34feebb",
+      "revId": "e42f32b199103ff6978df23d7479581beffead6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
