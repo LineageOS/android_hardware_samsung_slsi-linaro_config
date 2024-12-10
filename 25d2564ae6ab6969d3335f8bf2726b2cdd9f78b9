@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cfbc95b_58574a60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2024-12-10T13:02:59Z",
+      "side": 1,
+      "message": "i like this, should allow us to gracefully switch over and potentially drop the non soong ones with the next 1 one or two lineage versions",
+      "revId": "25d2564ae6ab6969d3335f8bf2726b2cdd9f78b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
