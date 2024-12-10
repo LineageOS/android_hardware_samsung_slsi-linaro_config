@@ -26,10 +26,11 @@ VSYNC_EVENT_PHASE_OFFSET_NS := 0
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 0
 
 # Gralloc
-BOARD_USES_ALIGN_RESTRICTION := true
+$(call soong_config_set,libexynosscaler,BOARD_USES_ALIGN_RESTRICTION,true)
+$(call soong_config_set,arm_gralloc,uses_align_restriction,true)
 BOARD_USES_EXYNOS5_COMMON_GRALLOC := true
 BOARD_USES_EXYNOS_GRALLOC_VERSION := 3
-BOARD_USES_GRALLOC_ION_SYNC := true
+$(call soong_config_set,arm_gralloc,gralloc_ion_sync,true)
 
 # Audio
 BOARD_USE_COMMON_AUDIOHAL := true
@@ -56,7 +57,7 @@ BOARD_USES_EXYNOS_DATASPACE_FEATURE := true
 
 # HWComposer
 BOARD_HWC_VERSION := hwc3
-BOARD_USES_EXYNOS_AFBC_FEATURE := true
+$(call soong_config_set,arm_gralloc,uses_exynos_afbc_feature,true)
 BOARD_USES_VSYNC_MODE := true
 HWC_SKIP_VALIDATE := true
 TARGET_USES_HWC2 := true
@@ -71,18 +72,18 @@ BOARD_USES_SECURE_ENCODER_ONLY := true
 
 # Scaler
 BOARD_USES_DEFAULT_CSC_HW_SCALER := true
-BOARD_DEFAULT_CSC_HW_SCALER := 4
+$(call soong_config_set,libcsc,BOARD_DEFAULT_CSC_HW_SCALER,4)
 BOARD_USES_SCALER_M2M1SHOT := true
 
 # H/W align restriction of MM IPs
 BOARD_EXYNOS_S10B_FORMAT_ALIGN := 64
 
 # Libhwjpeg
-BOARD_HWJPEG_ANDROID_VERSION := 11
+$(call soong_config_set,libhwjpeg,BOARD_HWJPEG_ANDROID_VERSION,11)
 TARGET_USES_UNIVERSAL_LIBHWJPEG := true
 
 # Giantmscl
-BOARD_USE_GIANT_MSCL := true
+$(call soong_config_set,giantmscl,use_giant_mscl,true)
 
 # Acryl
 BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_L16FSBWC
