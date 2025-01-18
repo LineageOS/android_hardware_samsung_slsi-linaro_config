@@ -20,3 +20,26 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung_slsi-linaro/graphics \
     hardware/samsung_slsi-linaro/interfaces \
     hardware/samsung_slsi-linaro/openmax
+
+ifeq ($(TARGET_SOC), exynos9610)
+ifneq ($(BOARD_VENDOR), samsung)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos/c2service \
+    hardware/samsung_slsi-linaro/exynos/tee/kinibi410
+endif
+endif
+
+ifeq ($(TARGET_SOC), exynos850)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos/tee/kinibi500
+endif
+
+ifeq ($(BOARD_USES_EXYNOS_GRALLOC_VERSION),1)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos/gralloc/gralloc1
+endif
+
+ifeq ($(BOARD_USES_EXYNOS_GRALLOC_VERSION),3)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3
+endif
