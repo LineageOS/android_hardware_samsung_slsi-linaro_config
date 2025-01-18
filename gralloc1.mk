@@ -1,6 +1,4 @@
 
-PRODUCT_SOONG_NAMESPACES += hardware/samsung_slsi-linaro/exynos/gralloc/gralloc1
-
 ifeq ($(BOARD_USES_EXYNOS5_GRALLOC_RANGE_FLUSH), true)
 $(call soong_config_set,arm_gralloc,DGRALLOC_RANGE_FLUSH,true)
 endif
@@ -24,6 +22,7 @@ ifeq ($(TARGET_SOC_BASE), exynos7885)
 $(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,$(BOARD_MFC_CHROMA_VALIGN))
 endif
 ifeq ($(TARGET_SOC_BASE), exynos7872)
-$(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,$(BOARD_MFC_CHROMA_VALIGN))
+$(call soong_config_set,exynos_audio,PROXY_LIBRARY,"//device/samsung/exynos9820-common:libaudioproxy")
 endif
 endif
+PROXY_LIBRARY
