@@ -52,6 +52,24 @@
       "parentUuid": "6dc1b5ae_252ce7bc",
       "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d712664_b798edc7",
+        "filename": "gralloc3.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-18T16:22:48Z",
+      "side": 1,
+      "message": "can we do the PRODUCT_SOONG_NAMESPACES to config.mk in a follow-up commit? trying to shoehorn it into the chain would be a mess",
+      "parentUuid": "ce03a1d6_6a077779",
+      "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
