@@ -34,6 +34,24 @@
       "parentUuid": "afbb7d52_d2f6344f",
       "revId": "e36bc156c106df1007429074a49bc90e0671c93b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e8bea08_744ad1f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-18T21:34:13Z",
+      "side": 1,
+      "message": "i would like to make a markdown document/table that maps the old boardconfig flags to the new for a reference documentation and just get rid of the mapping makefiles, i think that is the best way forward to not clutter this up even more, thoughts?",
+      "parentUuid": "2eb92772_1482c71c",
+      "revId": "e36bc156c106df1007429074a49bc90e0671c93b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
