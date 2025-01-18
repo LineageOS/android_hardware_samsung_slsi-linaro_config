@@ -16,16 +16,18 @@
 
 TARGET_LINUX_KERNEL_VERSION := 4.14
 
-TARGET_SOC_BASE := exynos9610
+$(call soong_config_set,exynos_hwc,target_soc_base,exynos9610)
 
 USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
-BOARD_USES_EXYNOS5_COMMON_GRALLOC := true
-BOARD_USES_EXYNOS_GRALLOC_VERSION := 3
-BOARD_USES_ALIGN_RESTRICTION := true
-BOARD_USES_GRALLOC_ION_SYNC := true
-BOARD_EXYNOS_S10B_FORMAT_ALIGN := 64
-BOARD_USES_EXYNOS_DATASPACE_FEATURE := true
+
+# Gralloc
+$(call soong_config_set,arm_gralloc,gralloc_version,three)
+$(call soong_config_set,arm_gralloc,uses_align_restriction,true)
+$(call soong_config_set,arm_gralloc,gralloc_ion_sync,true)
+$(call soong_config_set,arm_gralloc,exynos_s10b_format_align,64)
+$(call soong_config_set,arm_gralloc,uses_exynos_dataspace_feature,true)
+$(call soong_config_set,arm_gralloc,uses_exynos_afbc_feature,true)
 
 # Audio
 ifeq ($(BOARD_VENDOR), samsung)
@@ -34,51 +36,44 @@ BOARD_USE_AUDIOHAL := true
 endif
 
 # Samsung OpenMAX Video
-BOARD_USE_DMA_BUF := true
-BOARD_USE_NON_CACHED_GRAPHICBUFFER := true
-BOARD_USE_GSC_RGB_ENCODER := true
-BOARD_USE_CSC_HW := false
-BOARD_USE_S3D_SUPPORT := false
-BOARD_USE_DEINTERLACING_SUPPORT := true
-BOARD_USE_HEVCENC_SUPPORT := true
-BOARD_USE_HEVC_HWIP := false
-BOARD_USE_VP9DEC_SUPPORT := true
-BOARD_USE_VP9ENC_SUPPORT := true
-BOARD_USE_WFDENC_SUPPORT := false
+$(call soong_config_set,openmax,USE_DMA_BUF,true)
+$(call soong_config_set,openmax,USE_NON_CACHED_GRAPHICBUFFER,true)
+$(call soong_config_set,openmax,USE_HW_CSC_GRALLOC_SOURCE,true)
+$(call soong_config_set,openmax,USE_CSC_HW,false)
+$(call soong_config_set,openmax,USE_S3D_SUPPORT,false)
+$(call soong_config_set,openmax,USE_DEINTERLACING_SUPPORT,true)
+$(call soong_config_set,openmax,USE_HEVCENC_SUPPORT,true)
+$(call soong_config_set,openmax,USE_HEVC_HWIP,false)
+$(call soong_config_set,openmax,USE_VP9DEC_SUPPORT,true)
+$(call soong_config_set,openmax,USE_VP9ENC_SUPPORT,true)
+$(call soong_config_set,openmax,USE_WFDENC_SUPPORT,false)
 ifeq ($(BOARD_VENDOR), samsung)
-BOARD_USE_CUSTOM_COMPONENT_SUPPORT := true
+$(call soong_config_set,openmax,USE_CUSTOM_COMPONENT_SUPPORT,true)
 endif
-BOARD_USE_VIDEO_EXT_FOR_WFD_HDCP := true
-BOARD_USE_SINGLE_PLANE_IN_DRM := true
-BOARD_USE_WA_ION_BUF_REF := true
+$(call soong_config_set,openmax,USE_VIDEO_EXT_FOR_WFD_HDCP,true)
+$(call soong_config_set,openmax,USE_SINGLE_PLANE_IN_DRM,true)
+$(call soong_config_set,openmax,USE_WA_ION_BUF_REF,true)
+$(call soong_config_set,openmax,USE_BT709_SUPPORT,true)
 
 # HWComposer
-BOARD_HWC_VERSION := hwc3
-TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := false
-TARGET_USES_HWC2 := true
 ifneq ($(BOARD_VENDOR), samsung)
-HWC_SUPPORT_COLOR_TRANSFORM := true
-TARGET_USES_DISPLAY_RENDER_INTENTS := true
+$(call soong_config_set,exynos_hwc,HWC_SUPPORT_COLOR_TRANSFORM,true)
+$(call soong_config_set,exynos_hwc,HWC_SUPPORT_RENDER_INTENT,true)
 endif
-HWC_SKIP_VALIDATE := true
-BOARD_USES_EXYNOS_AFBC_FEATURE := true
-BOARD_USES_HWC_SERVICES := false
+$(call soong_config_set,exynos_hwc,uses_hwc_services,false)
 VSYNC_EVENT_PHASE_OFFSET_NS := 0
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 0
 
 # SCALER
-BOARD_USES_DEFAULT_CSC_HW_SCALER := true
-BOARD_DEFAULT_CSC_HW_SCALER := 4
-BOARD_USES_SCALER_M2M1SHOT := true
-BOARD_HAS_SCALER_ALIGN_RESTRICTION := true
-
-# LIBHWJPEG
-TARGET_USES_UNIVERSAL_LIBHWJPEG := true
+$(call soong_config_set,libcsc,DEFAULT_CSC_HW,4)
+$(call soong_config_set,libexynosscaler,USES_SCALER_M2M1SHOT,true)
+$(call soong_config_set,libexynosscaler,HAS_SCALER_ALIGN_RESTRICTION,true)
+$(call soong_config_set,openmax,MSCL_EXT_SIZE,512)
 
 # Acryl
-BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_9610
-BOARD_LIBACRYL_DEFAULT_SCALER := mscl_9810
-BOARD_LIBACRYL_DEFAULT_BLTER := fimg2d_9810_blter
+$(call soong_config_set,libacryl,default_compositor,fimg2d_9610)
+$(call soong_config_set,libacryl,default_scaler,mscl_9810)
+$(call soong_config_set,libacryl,default_blter,fimg2d_9810_blter)
 
 ifneq ($(BOARD_VENDOR), samsung)
 
