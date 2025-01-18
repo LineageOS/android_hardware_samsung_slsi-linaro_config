@@ -1,0 +1,85 @@
+
+| Android.mk |  Android.bp  | Notes
+|------------|--------------------|--------------------|
+| BOARD_LIBACRYL_DEFAULT_COMPOSITOR | `$(call soong_config_set,libacryl,default_compositor,fimg2d_9610)` |  |
+| BOARD_LIBACRYL_DEFAULT_SCALER | `$(call soong_config_set,libacryl,default_scaler,mscl_9810)` |  |
+| BOARD_LIBACRYL_DEFAULT_BLTER | `$(call soong_config_set,libacryl,default_blter,fimg2d_9810_blter)` |  |
+| BOARD_LIBACRYL_G2D9810_HDR_PLUGIN | `$(call soong_config_set,libacryl,g2d9810_hdr_plugin,libacryl_plugin_slsi_hdr10)` |  |
+| BOARD_USES_EXYNOS_GRALLOC_VERSION | `$(call soong_config_set,exynosgraphicbuffer,gralloc_version,three)` |  |
+| BOARD_USES_EXYNOS_GRALLOC_VERSION | `$(call soong_config_set,libgrallocwrapper,gralloc_version,three)` |  |
+| BOARD_USES_SCALER_M2M1SHOT | `$(call soong_config_set,libexynosscaler,USES_SCALER_M2M1SHOT,true)` |  |
+| BOARD_USES_ALIGN_RESTRICTION | `$(call soong_config_set,libexynosscaler,HAS_SCALER_ALIGN_RESTRICTION,true)` |  |
+| BOARD_USES_LEGACY_LIBSCALER | `$(call soong_config_set,libexynosscaler,USE_LEGACY,true)` |  |
+| BOARD_USES_EXYNOS5_GRALLOC_RANGE_FLUSH | `$(call soong_config_set,arm_gralloc,DGRALLOC_RANGE_FLUSH,true)` |  |
+| BOARD_USES_ALIGN_RESTRICTION | `$(call soong_config_set,arm_gralloc,uses_align_restriction,true)` `$(call soong_config_set,arm_gralloc,uses_10b_align_restriction,true)` |  |
+| BOARD_EXYNOS_S10B_FORMAT_ALIGN | `$(call soong_config_set,arm_gralloc,exynos_s10b_format_align,64)` |  |
+| BOARD_MFC_CHROMA_VALIGN | `$(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,32)` |  |
+| BOARD_USES_EXYNOS_AFBC_FEATURE | `$(call soong_config_set,arm_gralloc,uses_exynos_afbc_feature,true)` |  |
+|  | `$(call soong_config_set,arm_gralloc,gralloc_scaler_wfd,true)` | previously guarded by `ifeq ($(TARGET_SOC_BASE), exynos3830)` |
+|  | `$(call soong_config_set,arm_gralloc,GRALLOC_SECURE_BUFFER_NO_AFBC,true)` | previously guarded by `ifeq ($(TARGET_SOC_BASE), exynos9830)` |
+|  | `$(call soong_config_set,arm_gralloc,GRALLOC_DPU_SUPPORT_1010102_AFBC,true)` | previously guarded by `ifeq ($(TARGET_SOC), exynos2100)` |
+|  | `$(call soong_config_set,arm_gralloc,gralloc_ion_handle_import,false)` | previously guarded by `ifeq ($(TARGET_SOC), exynos7885)` |
+|  | `$(call soong_config_set,arm_gralloc,GRALLOC_7885_WA,true)` | previously guarded by `ifeq ($(TARGET_SOC), exynos7885)` |
+| BOARD_MFC_CHROMA_VALIGN | `$(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,32)` | `ifneq ($(filter exynos7885 exynos7872,$(TARGET_SOC_BASE)),)` `ifneq ($(BOARD_MFC_CHROMA_VALIGN),)` |
+| BOARD_USES_EXYNOS_DATASPACE_FEATURE | $(call soong_config_set,arm_gralloc,uses_exynos_dataspace_feature,true)`` |  |
+| BOARD_USES_GRALLOC_ION_SYNC | `$(call soong_config_set,arm_gralloc,gralloc_ion_sync,true)` |  |
+| BOARD_USES_ALIGN_RESTRICTION | `$(call soong_config_set,arm_gralloc,uses_align_restriction,true)` |  |
+|  | `$(call soong_config_set,openmax,USE_EXYNOS_MEDIA_EXT,true)` | previously guarded by `ifeq ($(filter-out 3.4, $(TARGET_LINUX_KERNEL_VERSION)),)` |
+|  | `$(call soong_config_set,openmax,USE_DEFINE_H264_SEI_TYPE,true)` | previously guarded by `ifneq ($(filter-out 3.4, $(TARGET_LINUX_KERNEL_VERSION)),)` |
+|  | `$(call soong_config_set,openmax,USE_ORIGINAL_HEADER,true)` `$(call soong_config_set,openmax,USE_MFC_HEADER,true)` | previously guarded by `ifneq ($(filter-out 3.4 3.10, $(TARGET_LINUX_KERNEL_VERSION)),)` |
+|  | `$(call soong_config_set,openmax,MAINLINE_FEATURE_IN_SINCE_4_19,true)` | previously guarded by `ifneq ($(filter 4.19 5.4, $(TARGET_LINUX_KERNEL_VERSION)),)` |
+| BOARD_USE_HEVC_HWIP | `$(call soong_config_set,openmax,USE_HEVC_HWIP,true)` |  |
+| BOARD_USE_DEINTERLACING_SUPPORT | `$(call soong_config_set,openmax,USE_DEINTERLACING_SUPPORT,true)` |  |
+| BOARD_USE_SINGLE_PLANE_IN_DRM | `$(call soong_config_set,openmax,USE_SINGLE_PLANE_IN_DRM,true)` |  |
+| BOARD_USE_FRAMERATE_THRESH_HOLD | `$(call soong_config_set,openmax,FRAMERATE_THRESH_HOLD,1)` |  |
+| BOARD_USE_DMA_BUF | `$(call soong_config_set,openmax,USE_DMA_BUF,true)` |  |
+| BOARD_USE_CSC_HW | `$(call soong_config_set,openmax,USE_CSC_HW,true)` |  |
+| BOARD_USE_NON_CACHED_GRAPHICBUFFER | `$(call soong_config_set,openmax,USE_NON_CACHED_GRAPHICBUFFER,true)` |  |
+| BOARD_MFC_CHROMA_VALIGN | `$(call soong_config_set,openmax,CHROMA_VALIGN,32)` |  |
+| BOARD_USE_WA_ION_BUF_REF | `$(call soong_config_set,openmax,USE_WA_ION_BUF_REF,true)` |  |
+| BOARD_USES_EXYNOS_GRALLOC_VERSION | `$(call soong_config_set,openmax,USE_WA_ION_BUF_REF,true)` |  |
+| BOARD_OMX_USES_EPIC | `$(call soong_config_set,openmax,OMX_USES_EPIC,true)` |  |
+| BOARD_USES_EXYNOS_DATASPACE_FEATURE | `$(call soong_config_set,openmax,USE_BT709_SUPPORT,true)` |  |
+| BOARD_USE_SKYPE_HD | `$(call soong_config_set,openmax,USE_SKYPE_HD,true)` |  |
+| BOARD_USE_FULL_ST2094_40 | `$(call soong_config_set,openmax,USE_FULL_ST2094_40,true)` |  |
+| BOARD_USE_HDR10PLUS_STAT_ENC | `$(call soong_config_set,openmax,USE_FULL_ST2094_40,true)` |  |
+| BOARD_HAS_SCALER_ALIGN_RESTRICTION | `$(call soong_config_set,openmax,MSCL_EXT_SIZE,512)` |  |
+| EXYNOS_OMX_SUPPORT_EGL_IMAGE | `$(call soong_config_set,openmax,EGL_IMAGE_SUPPORT,true)` |  |
+| EXYNOS_OMX_SUPPORT_TUNNELING | `$(call soong_config_set,openmax,TUNNELING_SUPPORT,true)` |  |
+| BOARD_NOT_SUPPORT_DCPP | `$(call soong_config_set,openmax,USE_SECURE_WITH_NONSECURE,true)` |  |
+| BOARD_USE_SINGLE_DRM | `$(call soong_config_set,openmax,USE_SINGLE_DRM,true)` |  |
+| BOARD_USE_MAX_COMPONENT_NUM | `$(call soong_config_set,openmax,MAX_COMPONENT_NUM,1)` |  |
+| BOARD_USE_SMALL_SECURE_MEMORY | `$(call soong_config_set,openmax,USE_SMALL_SECURE_MEMORY,true)` |  |
+| BOARD_USE_COMPRESSED_COLOR | `$(call soong_config_set,openmax,USE_COMPRESSED_COLOR,true)` |  |
+| BOARD_USE_S3D_SUPPORT | `$(call soong_config_set,openmax,USE_S3D_SUPPORT,true)` |  |
+| BOARD_USE_CUSTOM_COMPONENT_SUPPORT | `$(call soong_config_set,openmax,USE_CUSTOM_COMPONENT_SUPPORT,true)` |  |
+| BOARD_USE_VP9DEC_SUPPORT | `$(call soong_config_set,openmax,USE_VP9DEC_SUPPORT,true)` |  |
+| BOARD_USE_GSC_RGB_ENCODER | `$(call soong_config_set,openmax,USE_HW_CSC_GRALLOC_SOURCE,true)` |  |
+| BOARD_USE_FIMC_RGB_ENCODER | `$(call soong_config_set,openmax,USE_FIMC_RGB_ENCODER,true)` |  |
+| BOARD_USE_VIDEO_EXT_FOR_WFD_HDCP | `$(call soong_config_set,openmax,USE_VIDEO_EXT_FOR_WFD_HDCP,true)` |  |
+| BOARD_USE_WFDENC_SUPPORT | `$(call soong_config_set,openmax,USE_WFDENC_SUPPORT,true)` |  |
+| BOARD_USE_HEVCENC_SUPPORT | `$(call soong_config_set,openmax,USE_HEVCENC_SUPPORT,true)` |  |
+| BOARD_USE_VP9ENC_SUPPORT | `$(call soong_config_set,openmax,USE_VP9ENC_SUPPORT,true)` |  |
+| BOARD_DISABLE_RAPID_COMPONENT_LOAD | `$(call soong_config_set,openmax,USE_DISABLE_RAPID_COMPONENT_LOAD,true)` |  |
+| BOARD_USE_NON_DRM_CODEC_ONLY | `$(call soong_config_set,openmax,USE_NON_DRM_CODEC_ONLY,true)` |  |
+| TARGET_SOC_BASE | `$(call soong_config_set,exynos_hwc,target_soc_base,exynos9610)` |  |
+| BOARD_LIBHDR_PLUGIN | `$(call soong_config_set,exynos_hwc,libhdr_plugin,$(BOARD_LIBHDR_PLUGIN))` `$(call soong_config_set,exynos_hwc,USE_LIBHDR_PLUGIN,true)` |  |
+| BOARD_LIBHDR10P_META_PLUGIN | `$(call soong_config_set,exynos_hwc,libhdr10p_meta_plugin,$(BOARD_LIBHDR10P_META_PLUGIN))` `$(call soong_config_set,exynos_hwc,USE_LIBHDR10P_META_PLUGIN,true)` |  |
+| BOARD_USES_DQE_INTERFACE | `$(call soong_config_set,exynos_hwc,uses_dqe_interface,true)` |  |
+| BOARD_USES_DISPLAY_COLOR_INTERFACE | `$(call soong_config_set,exynos_hwc,uses_display_color_interface,true)` |  |
+| HWC_SUPPORT_COLOR_TRANSFORM | `$(call soong_config_set,exynos_hwc,HWC_SUPPORT_COLOR_TRANSFORM,true)` |  |
+| TARGET_USES_DISPLAY_RENDER_INTENTS | `$(call soong_config_set,exynos_hwc,HWC_SUPPORT_RENDER_INTENT,true)` |  |
+| BOARD_USES_VIRTUAL_DISPLAY | `$(call soong_config_set,exynos_hwc,USES_VIRTUAL_DISPLAY,true)` |  |
+|  | `$(call soong_config_set,exynos_hwc,USES_ARCH_ARM64,true)` | previously guarded by `ifeq ($(TARGET_ARCH), arm64)` |
+| BOARD_USES_DECON_64BIT_ADDRESS | `$(call soong_config_set,exynos_hwc,USES_DECON_64BIT_ADDRESS,true)` |  |
+|  | `$(call soong_config_set,exynos_hwc,USES_SAJC_FEATURE,true)` | previously guarded by `ifeq ($(SOONG_CONFIG_sgr_enable_sajc), true)` |
+| BOARD_USES_HDRUI_GLES_CONVERSION | `$(call soong_config_set,exynos_hwc,USES_HDR_GLES_CONVERSION,true)` |  |
+| BOARD_USES_DOZEMODE | `$(call soong_config_set,exynos_hwc,USES_DOZEMODE,true)` |  |
+| BOARD_USES_HWC_CPU_PERF_MODE | `$(call soong_config_set,exynos_hwc,USES_HWC_CPU_PERF_MODE,true)` |  |
+| BOARD_USES_DUAL_DISPLAY | `$(call soong_config_set,exynos_hwc,USES_DUAL_DISPLAY,true)` |  |
+| BOARD_USES_HDR_INTERFACE | `$(call soong_config_set,exynos_hwc,USE_HDR_INTERFACE,true)` |  |
+| HWC_DISABLE_WIN_UPDATE | `$(call soong_config_set,exynos_hwc,HWC_DISABLE_WIN_UPDATE,true)` |  |
+| BOARD_USES_DYNAMIC_RECOMPOSITION | `$(call soong_config_set,exynos_hwc,ENABLE_DYNAMIC_RECOMP,true)` |  |
+| BOARD_USES_HWC_FORCE_GPU | `$(call soong_config_set,exynos_hwc,ENABLE_FORCE_GPU,true)` |  |
+| BOARD_USES_HWC_OLD_VSYNC_STRUCT | `$(call soong_config_set,exynos_hwc,USE_NOT_RESERVED_FIELD,true)` |  |
+| BOARD_MINIMUM_DISPLAY_BRIGHTNESS | `$(call soong_config_set,exynos_hwc,MINIMUM_DISPLAY_BRIGHTNESS,$(BOARD_MINIMUM_DISPLAY_BRIGHTNESS))` |  |
