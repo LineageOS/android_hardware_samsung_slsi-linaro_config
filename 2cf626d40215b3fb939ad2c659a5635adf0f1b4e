@@ -70,6 +70,24 @@
       "parentUuid": "ce03a1d6_6a077779",
       "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bd60764_d5b4c574",
+        "filename": "gralloc3.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-01-18T16:31:06Z",
+      "side": 1,
+      "message": "Ok.",
+      "parentUuid": "0d712664_b798edc7",
+      "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
