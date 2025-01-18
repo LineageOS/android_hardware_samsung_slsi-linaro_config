@@ -16,6 +16,24 @@
       "message": "just a thought and move the current conversion makefiles to a subdirectory for conversion help (and sorta documentation), what are your thoughts? i primarily wanted to do it to see where overlap in flags may be but havent seen any",
       "revId": "e36bc156c106df1007429074a49bc90e0671c93b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2eb92772_1482c71c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-18T21:19:06Z",
+      "side": 1,
+      "message": "adding to that, now that we have everything converted and now what vars are used where we can do a nice cleanup and have for example a single gralloc version var instead of setting 4 different ones, also naming can be improved in the same go\n\n/cc vince",
+      "parentUuid": "afbb7d52_d2f6344f",
+      "revId": "e36bc156c106df1007429074a49bc90e0671c93b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
