@@ -88,6 +88,24 @@
       "parentUuid": "0d712664_b798edc7",
       "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d11779e_6d68382e",
+        "filename": "gralloc3.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-18T16:41:21Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_samsung_slsi-linaro_config/+/415978",
+      "parentUuid": "9bd60764_d5b4c574",
+      "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
