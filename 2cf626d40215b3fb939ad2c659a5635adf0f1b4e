@@ -34,6 +34,24 @@
       "parentUuid": "d948cb2e_bb77ff7d",
       "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce03a1d6_6a077779",
+        "filename": "gralloc3.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-01-18T16:14:50Z",
+      "side": 1,
+      "message": "I am not directly affected by those two because they are for mobicore TEE, would be cool if we could eventually move them somewhere proper too tho.\nYeah I think conditionally including them in config.mk is probably the way to go then.",
+      "parentUuid": "6dc1b5ae_252ce7bc",
+      "revId": "2cf626d40215b3fb939ad2c659a5635adf0f1b4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
