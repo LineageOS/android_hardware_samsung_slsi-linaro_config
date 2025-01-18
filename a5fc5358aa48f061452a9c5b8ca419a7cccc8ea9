@@ -50,6 +50,24 @@
       "message": "@tim seems like we two are the only users anyway? https://github.com/search?q\u003dorg%3ALineageOS%20%22hardware%2Fsamsung_slsi-linaro%2Fconfig%2Fconfig.mk%22\u0026type\u003dcode  may aswell remove them entirely and include the namespaces needed directly in the devices (except the ones that were already in the config.mk)",
       "revId": "a5fc5358aa48f061452a9c5b8ca419a7cccc8ea9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a4f0f9_d29cc170",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-01-18T18:44:51Z",
+      "side": 1,
+      "message": "I agree, that might be the easiest way.",
+      "parentUuid": "6e6dedbe_9a50a654",
+      "revId": "a5fc5358aa48f061452a9c5b8ca419a7cccc8ea9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
