@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "510e972c_8ca36a67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-28T08:08:05Z",
+      "side": 1,
+      "message": "hold off on this one for now, its gonna be parts of a bigger cleanup chain",
+      "revId": "a6be8d5c919a3f50c8ceb71c5fa2aea105377ba0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
