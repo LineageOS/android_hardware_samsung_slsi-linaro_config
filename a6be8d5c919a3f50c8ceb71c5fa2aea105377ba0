@@ -33,6 +33,24 @@
       "message": "These calls /should/ be moved to product makefile.",
       "revId": "a6be8d5c919a3f50c8ceb71c5fa2aea105377ba0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b316059_daedec52",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-01-30T13:01:30Z",
+      "side": 1,
+      "message": "aware, given that Google also has a couple of these in their boardconfig i won\u0027t care for now, next cycle I indeed want to restructure it and remove the translation layer for the old makefile flags but that\u0027s too much for a midcycle change unless @tim@linux4.de agrees to go all in as we are seemingly the only users on official lineage atm",
+      "parentUuid": "524ee566_9b6d41a6",
+      "revId": "a6be8d5c919a3f50c8ceb71c5fa2aea105377ba0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
