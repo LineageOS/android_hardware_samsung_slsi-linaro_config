@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00150650_4350adf1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-02-23T16:44:29Z",
+      "side": 1,
+      "message": "I am only developer for exynos 850, so i just a need a cr for this.",
+      "revId": "0b88a05c1838ee1b0563ed1e6f298945dbad6e1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
