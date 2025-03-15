@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff318ccb_272410eb",
+        "filename": "BoardConfig850.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-15T10:09:23Z",
+      "side": 1,
+      "message": "I just took the values from the e850-96 treee on gitlab.",
+      "parentUuid": "de3e8e70_a950b5fa",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 26
+      },
+      "revId": "cec058313bea0d514be1da8f57cd70e19b727e5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ab1d0bb_9fb33f37",
@@ -54,6 +78,30 @@
       "writtenOn": "2025-03-15T09:42:13Z",
       "side": 1,
       "message": "i just checked the stock libacryl blob of a21s, remove the 2 options you enabled\n```\niVar1 \u003d strcmp(param_1,\"default_compositor\");\nif (iVar1 \u003d\u003d 0) {\npcVar2 \u003d \"no_default_compositor\";\n\niVar1 \u003d strcmp(param_1,\"default_scaler\");{\nif (iVar1 \u003d\u003d 0) {\npcVar2 \u003d \"mscl_3830\";\n\niVar1 \u003d strcmp(param_1,\"default_blter\");\nif (iVar1 \u003d\u003d 0) {\npcVar2 \u003d \"no_default_blter\";\n```\nstock only sets `BOARD_LIBACRYL_DEFAULT_SCALER :\u003d mscl_3830`",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 63
+      },
+      "revId": "cec058313bea0d514be1da8f57cd70e19b727e5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7441cd94_0f1b12e6",
+        "filename": "BoardConfig850.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-15T10:09:23Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "0ab1d0bb_9fb33f37",
       "range": {
         "startLine": 71,
         "startChar": 0,
