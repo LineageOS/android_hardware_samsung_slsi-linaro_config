@@ -18,11 +18,8 @@ $(call soong_config_set,arm_gralloc,exynos_s10b_format_align,$(BOARD_EXYNOS_S10B
 endif
 
 # HEVC Encoder H/W restriction
+ifneq ($(filter exynos7885 exynos7872,$(TARGET_SOC_BASE)),)
 ifneq ($(BOARD_MFC_CHROMA_VALIGN),)
-ifeq ($(TARGET_SOC_BASE), exynos7885)
-$(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,$(BOARD_MFC_CHROMA_VALIGN))
-endif
-ifeq ($(TARGET_SOC_BASE), exynos7872)
 $(call soong_config_set,arm_gralloc,MFC_CHROMA_VALIGN,$(BOARD_MFC_CHROMA_VALIGN))
 endif
 endif
