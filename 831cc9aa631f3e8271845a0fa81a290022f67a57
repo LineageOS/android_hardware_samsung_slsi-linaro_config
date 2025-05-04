@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5473e37_973ddd33",
+        "filename": "gralloc1.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-05-04T20:19:20Z",
+      "side": 1,
+      "message": "the bsp does not have exynos7872 support and the 7885 config may get dropped.",
+      "revId": "831cc9aa631f3e8271845a0fa81a290022f67a57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
