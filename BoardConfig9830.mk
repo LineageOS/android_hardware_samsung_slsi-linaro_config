@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2023 The LineageOS Project
+# Copyright (C) 2022-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -54,7 +54,6 @@ BOARD_USES_EXYNOS_DATASPACE_FEATURE := true
 
 # HWComposer
 BOARD_USES_EXYNOS_AFBC_FEATURE := true
-BOARD_USES_VSYNC_MODE := true
 
 # HWCServices
 BOARD_USES_HWC_SERVICES := true
@@ -72,10 +71,10 @@ BOARD_USES_SCALER_M2M1SHOT := true
 BOARD_EXYNOS_S10B_FORMAT_ALIGN := 64
 
 # Libhwjpeg
-BOARD_HWJPEG_ANDROID_VERSION := 11
+$(call soong_config_set,libhwjpeg,HWJPEG_ANDROID_VERSION,11)
 
 # Giantmscl
-BOARD_USE_GIANT_MSCL := true
+$(call soong_config_set,giantmscl,use_giant_mscl,true)
 
 # Acryl
 BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_L16FSBWC
