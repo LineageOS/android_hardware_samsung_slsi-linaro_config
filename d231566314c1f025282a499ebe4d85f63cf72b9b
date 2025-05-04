@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c66bdfd1_70de4b00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-05-04T19:00:34Z",
+      "side": 1,
+      "message": "considering these configs are all 4.4 (which struggle to even boot Android 15) and they are no longer maintained in lineage nor projects elsewhere, it seems like a safe drop to do.",
+      "revId": "d231566314c1f025282a499ebe4d85f63cf72b9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
