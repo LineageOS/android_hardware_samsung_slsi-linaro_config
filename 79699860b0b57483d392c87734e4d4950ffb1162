@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14bb214b_95271355",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-05-05T09:21:33Z",
+      "side": 1,
+      "message": "Let\u0027s wait with this until we rewrite the soong config names.",
+      "revId": "79699860b0b57483d392c87734e4d4950ffb1162",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
