@@ -33,6 +33,24 @@
       "message": "this could come back, pls leave it.\n\nIt\u0027s 4.4. You can kill it in 23 with 0 regrets.\n\nThis leaves it if someone comes along that cares.",
       "revId": "d231566314c1f025282a499ebe4d85f63cf72b9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8051eef2_dd99378a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-05-05T09:33:06Z",
+      "side": 1,
+      "message": "Agreed, we\u0027ll move it to 23 when it comes. I won\u0027t remove anything related to these until then.",
+      "parentUuid": "d881ee2e_a66d2679",
+      "revId": "d231566314c1f025282a499ebe4d85f63cf72b9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
