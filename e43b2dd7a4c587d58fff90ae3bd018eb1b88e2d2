@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02b5af3f_f141e65a",
+        "filename": "BoardConfig9810.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-05T16:30:39Z",
+      "side": 1,
+      "message": "just drop it? The checks are all \"if true\" so not setting it is the same",
+      "revId": "e43b2dd7a4c587d58fff90ae3bd018eb1b88e2d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
