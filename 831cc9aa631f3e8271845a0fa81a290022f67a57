@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4ae80ac_6871e5ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-05-06T08:19:34Z",
+      "side": 1,
+      "message": "Let\u0027s wait with this until we rework the soong configs.",
+      "revId": "831cc9aa631f3e8271845a0fa81a290022f67a57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e5473e37_973ddd33",
