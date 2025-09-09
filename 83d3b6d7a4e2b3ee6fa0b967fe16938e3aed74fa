@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "578485c9_c80c3088",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-09-09T06:04:47Z",
+      "side": 1,
+      "message": "Cherry-picked from 23.0 to have it work here as well, since the device\u0027s 22.2 branch is on LineageOS org too.",
+      "revId": "83d3b6d7a4e2b3ee6fa0b967fe16938e3aed74fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
