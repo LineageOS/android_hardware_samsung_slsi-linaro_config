@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2891b991_50e23248",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-09-17T22:34:38Z",
+      "side": 1,
+      "message": "Hold for now. Apparently people are still working on 9810 so need to decide whether or not we will keep the config.",
+      "revId": "4a9dba76b4668bf1e8d5f70a54f1071ae57037b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
