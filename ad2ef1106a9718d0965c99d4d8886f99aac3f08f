@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "175a7677_c551e6a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-10-28T14:31:25Z",
+      "side": 1,
+      "message": "Working:\n* Gralloc/Mapper stack\n* libdrm_sgpu\n* libcsc\n* libexynosgdc\n* libexynosutils\n* libexynosv4l2\n* libeis_utils\n* libsbwchelper.\n* libdisplaycolor\n\nNot working:\n* Hardware Composer\n* Codec2\n\nShould we wait with this merge until all BSP components are functional?",
+      "revId": "ad2ef1106a9718d0965c99d4d8886f99aac3f08f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
