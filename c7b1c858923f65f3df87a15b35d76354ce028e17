@@ -16,6 +16,24 @@
       "message": "Couldn\u0027t we just combine the logic of the two \u0027ifeq\u0027 into one \"ifeq or ifeq\" to remove duplicating the MAINLINE_FEATURE_IN_SINCE_4_19 code??",
       "revId": "c7b1c858923f65f3df87a15b35d76354ce028e17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a48a50ba_947850a8",
+        "filename": "openmax.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-10-29T12:15:17Z",
+      "side": 1,
+      "message": "I feel like that would be even less readable than this.",
+      "parentUuid": "52786d5c_63ec959f",
+      "revId": "c7b1c858923f65f3df87a15b35d76354ce028e17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
