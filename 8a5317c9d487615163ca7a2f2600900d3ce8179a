@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74834bf3_4caf790e",
+        "filename": "openmax.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-11-02T17:50:00Z",
+      "side": 1,
+      "message": "grepped for \u0027USE_HDR10PLUS_STAT_ENC\u0027 in the linaro code on the LineageOS org and nothing",
+      "revId": "8a5317c9d487615163ca7a2f2600900d3ce8179a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
