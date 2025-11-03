@@ -33,6 +33,24 @@
       "message": "grepped for \u0027USE_HDR10PLUS_STAT_ENC\u0027 in the linaro code on the LineageOS org and nothing",
       "revId": "8a5317c9d487615163ca7a2f2600900d3ce8179a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62809dd7_cf360431",
+        "filename": "openmax.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2025-11-03T09:53:03Z",
+      "side": 1,
+      "message": "As extreme pointed out, this goes in tandem with the other change: https://review.lineageos.org/c/LineageOS/android_hardware_samsung_slsi-linaro_codec2/+/459037 and it allows to define USE_HDR10PLUS_STAT_ENC_FILTER.\n\nI have used BOARD_USE_HDR10PLUS_STAT_ENC to define USE_HDR10PLUS_STAT_ENC_FILTER because the original switch was like this, see: https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_codec2/blob/47f2d63d41042b23f250822b53a01b6fd7b24bee/Android.mk#L434C9-L434C37\n\nWhen porting the build scripts from mk to bp this was dropped for unknown reasons (maybe just overseen ?), but on the Galaxy S24 I do enable it as my stock ROM enables it.",
+      "parentUuid": "74834bf3_4caf790e",
+      "revId": "8a5317c9d487615163ca7a2f2600900d3ce8179a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
