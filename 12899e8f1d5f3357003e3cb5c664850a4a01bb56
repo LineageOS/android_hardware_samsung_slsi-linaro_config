@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f01501ab_b0b654c1",
+        "filename": "BoardConfig9830.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-11-17T04:28:37Z",
+      "side": 0,
+      "message": "Is this intentional?",
+      "revId": "12899e8f1d5f3357003e3cb5c664850a4a01bb56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
