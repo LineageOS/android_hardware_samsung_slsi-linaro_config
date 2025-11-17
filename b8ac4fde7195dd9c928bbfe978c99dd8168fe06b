@@ -16,6 +16,23 @@
       "message": "Works fine on a53x (8825)",
       "revId": "b8ac4fde7195dd9c928bbfe978c99dd8168fe06b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d16f4e1_05b88fc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-11-17T13:23:54Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_samsung_slsi-linaro_graphics/+/459966\n\nfor whoever merges this commit, also do this one",
+      "revId": "b8ac4fde7195dd9c928bbfe978c99dd8168fe06b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
