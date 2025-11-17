@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3dd5d18_b4e82c71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-11-17T12:35:35Z",
+      "side": 1,
+      "message": "Works fine on a53x (8825)",
+      "revId": "b8ac4fde7195dd9c928bbfe978c99dd8168fe06b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
