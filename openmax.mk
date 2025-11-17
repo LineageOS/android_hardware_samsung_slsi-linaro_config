@@ -218,10 +218,6 @@ ifeq ($(BOARD_SUPPORT_MFC_ENC_BT2020), true)
 $(call soong_config_set,openmax,SUPPORT_MFC_ENC_BT2020,true)
 endif
 
-ifdef BOARD_GPU_TYPE
-$(call soong_config_set,openmax,GPU_TYPE,$(BOARD_GPU_TYPE))
-endif
-
 ifeq ($(BOARD_USE_DEC_SW_CSC), true)
 $(call soong_config_set,openmax,USE_DEC_SW_CSC,true)
 endif
@@ -243,6 +239,7 @@ $(call soong_config_set,openmax,USE_FILMGRAIN_FILTER,true)
 endif
 
 ifeq ($(BOARD_USE_SUPPORT_GPU_SBWC), true)
+$(call soong_config_set,openmax,GPU_TYPE,sgpu)
 $(call soong_config_set,openmax,USE_SUPPORT_GPU_SBWC,true)
 endif
 
