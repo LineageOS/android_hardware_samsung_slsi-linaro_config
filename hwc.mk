@@ -102,6 +102,12 @@ ifeq ($(BOARD_USES_HDR_INTERFACE), true)
 $(call soong_config_set,exynos_hwc,USE_HDR_INTERFACE,true)
 endif
 
+ifeq ($(BOARD_USES_DEFAULT_LIBHDR_HEADER), true)
+$(call soong_config_set,exynos_hwc,libhdr_header_version,default)
+else
+$(call soong_config_set,exynos_hwc,libhdr_header_version,exynos9630)
+endif
+
 ifeq ($(BOARD_USES_DQE_INTERFACE), true)
 $(call soong_config_set,exynos_hwc,USE_DQE_INTERFACE,true)
 endif
