@@ -52,6 +52,7 @@ $(call soong_config_set,arm_gralloc,gralloc_version,four)
 endif
 ifeq ($(BOARD_USES_EXYNOS_GRALLOC_VERSION),sgr)
 $(call soong_config_set,arm_gralloc,gralloc_version,four_sgr)
+include hardware/samsung_slsi-linaro/config/sgpu_gralloc.mk
 endif
 
 # libexynosscaler
