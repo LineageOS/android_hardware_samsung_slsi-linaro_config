@@ -122,6 +122,24 @@
       "message": "If you want to do that, might as well do the same here.",
       "revId": "9fdc4bc143e4f6cd8dbd75494041f61d4dd9e780",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6219eb2d_288d9f40",
+        "filename": "BoardConfig850.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-13T21:20:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38f5a871_816e7a6c",
+      "revId": "9fdc4bc143e4f6cd8dbd75494041f61d4dd9e780",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
