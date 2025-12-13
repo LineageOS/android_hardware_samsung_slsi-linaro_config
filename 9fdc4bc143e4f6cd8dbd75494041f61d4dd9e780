@@ -16,6 +16,23 @@
       "message": "q",
       "revId": "9fdc4bc143e4f6cd8dbd75494041f61d4dd9e780",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6b74b84_f7f93d8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-13T18:12:08Z",
+      "side": 1,
+      "message": "remove the year while we\u0027re here. No need for it on LineageOS copyrights (only lineageos)",
+      "revId": "9fdc4bc143e4f6cd8dbd75494041f61d4dd9e780",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
