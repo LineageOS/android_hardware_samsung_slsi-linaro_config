@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e1c8eb5_f4681622",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "No need to define no_default_*",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a484791e_71549ba6",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "We don\u0027t have 2100 libhdr source code so need to use blobbed, I think it\u0027s the same name as 9925",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58e815bc_687277fa",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "No need to pass \"false\" vars",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c6bad24_1485548f",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "COMPRESSED_COLOR is redundant, in Samsung\u0027s tree it just sets a prop",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12de2d4f_ea1fbc85",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "Already set by libhdr plugin",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e97834cc_fdcc28ad",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "Why?",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "732ac322_36df691c",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-01-23T23:07:54Z",
+      "side": 1,
+      "message": "Last 2 are redundant",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
