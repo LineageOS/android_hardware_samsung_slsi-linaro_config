@@ -53,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4c13ef0_b0ee13d8",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e1c8eb5_f4681622",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a484791e_71549ba6",
@@ -66,6 +84,24 @@
       "writtenOn": "2026-01-23T23:07:54Z",
       "side": 1,
       "message": "We don\u0027t have 2100 libhdr source code so need to use blobbed, I think it\u0027s the same name as 9925",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2f83a75_40e46ef8",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a484791e_71549ba6",
       "revId": "7e843b7d89c63692b57decec67500923d3034a95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -87,6 +123,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2b27d01_08298054",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58e815bc_687277fa",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9c6bad24_1485548f",
@@ -100,6 +154,24 @@
       "writtenOn": "2026-01-23T23:07:54Z",
       "side": 1,
       "message": "COMPRESSED_COLOR is redundant, in Samsung\u0027s tree it just sets a prop",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4bd1d5c_d46b16d2",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9c6bad24_1485548f",
       "revId": "7e843b7d89c63692b57decec67500923d3034a95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -121,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "33a71569_baa28b0e",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12de2d4f_ea1fbc85",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e97834cc_fdcc28ad",
@@ -138,6 +228,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "89dc6cc3_aa8860f2",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e97834cc_fdcc28ad",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "732ac322_36df691c",
@@ -151,6 +259,24 @@
       "writtenOn": "2026-01-23T23:07:54Z",
       "side": 1,
       "message": "Last 2 are redundant",
+      "revId": "7e843b7d89c63692b57decec67500923d3034a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "523bbd9f_67d109e0",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-01-30T11:05:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "732ac322_36df691c",
       "revId": "7e843b7d89c63692b57decec67500923d3034a95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
