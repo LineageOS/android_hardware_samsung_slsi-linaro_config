@@ -124,3 +124,7 @@ endif
 ifneq ($(BOARD_MINIMUM_DISPLAY_BRIGHTNESS),)
 $(call soong_config_set,exynos_hwc,MINIMUM_DISPLAY_BRIGHTNESS,$(BOARD_MINIMUM_DISPLAY_BRIGHTNESS))
 endif
+
+ifeq ($(BOARD_USES_VRR_WINCONFIG), true)
+$(call soong_config_set_bool,exynos_hwc,USES_VRR_WINCONFIG,true)
+endif
