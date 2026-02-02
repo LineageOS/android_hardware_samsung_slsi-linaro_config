@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76501ebb_000a696b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-02-02T16:10:48Z",
+      "side": 1,
+      "message": "2100 has color transform according to the kernel (DECON_DQE)\n\nHWC_SUPPORT_COLOR_TRANSFORM :\u003d true\nTARGET_USES_DISPLAY_RENDER_INTENTS :\u003d true",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "049f15a8_d98fcd50",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-02-02T16:10:48Z",
+      "side": 1,
+      "message": "Move to Gralloc section? Along with BOARD_EXYNOS_S10B_FORMAT_ALIGN maybe",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8f2b962_848139a7",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-02-02T16:10:48Z",
+      "side": 1,
+      "message": "HDR plugins should be under HWC as it\u0027s an HWC plugin.",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64780786_983dc357",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-02-02T16:10:48Z",
+      "side": 1,
+      "message": "BOARD_USE_BLOB_ALLOCATOR might not be required?\n\nmaybe BOARD_HW_SUPPORT_FILMGRAIN, BOARD_USE_HDR10PLUS_STAT_ENC and BOARD_SUPPORT_MFC_ENC_BT2020 should be enabled?",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73d0a5e7_e1091daf",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-02-02T16:10:48Z",
+      "side": 1,
+      "message": "Should turn into a configurable?",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
