@@ -174,6 +174,24 @@
       "parentUuid": "73d0a5e7_e1091daf",
       "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee5042ed_7b0d255c",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-05-29T12:52:50Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "a56e1a26_2c7a150b",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
