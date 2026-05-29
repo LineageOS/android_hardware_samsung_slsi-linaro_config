@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8368b93_9fa52501",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T04:49:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76501ebb_000a696b",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "049f15a8_d98fcd50",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-02-02T16:10:48Z",
       "side": 1,
       "message": "Move to Gralloc section? Along with BOARD_EXYNOS_S10B_FORMAT_ALIGN maybe",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f5bf53d_75270596",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T04:49:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "049f15a8_d98fcd50",
       "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1b126cb_5a3939f3",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T04:49:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8f2b962_848139a7",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64780786_983dc357",
@@ -69,6 +123,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4682fde9_d8c071bc",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T04:49:32Z",
+      "side": 1,
+      "message": "Seems like we\u0027re not supporting BOARD_USE_HDR10PLUS_STAT_ENC. Others are done.",
+      "parentUuid": "64780786_983dc357",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73d0a5e7_e1091daf",
@@ -82,6 +154,24 @@
       "writtenOn": "2026-02-02T16:10:48Z",
       "side": 1,
       "message": "Should turn into a configurable?",
+      "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a56e1a26_2c7a150b",
+        "filename": "BoardConfig2100.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-05-29T04:49:32Z",
+      "side": 1,
+      "message": "Maybe later?",
+      "parentUuid": "73d0a5e7_e1091daf",
       "revId": "c872fc316c84f7bb2a9db528bf71fb2b85f4ec5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
