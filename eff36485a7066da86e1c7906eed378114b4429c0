@@ -34,6 +34,24 @@
       "parentUuid": "922b74ff_1316b507",
       "revId": "eff36485a7066da86e1c7906eed378114b4429c0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52cae9f9_e9d78005",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-06-12T18:18:06Z",
+      "side": 1,
+      "message": "Up to you but personally, I\u0027d squash it.",
+      "parentUuid": "9d084ce5_3f1a7a86",
+      "revId": "eff36485a7066da86e1c7906eed378114b4429c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
