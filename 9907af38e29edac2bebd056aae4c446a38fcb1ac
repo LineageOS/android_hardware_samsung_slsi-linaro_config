@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c92d9903_cbb13b15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-06-27T14:07:57Z",
+      "side": 1,
+      "message": "Works fine on a25x and a53x (based on logs)",
+      "revId": "9907af38e29edac2bebd056aae4c446a38fcb1ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
