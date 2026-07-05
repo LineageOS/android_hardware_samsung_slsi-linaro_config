@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d3f174c_3a8d5163",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2026-07-05T20:53:30Z",
+      "side": 1,
+      "message": "Feel free to squash and take ownership of this one as well, my base commit isn\u0027t merged yet and this one is practically from the ground up.",
+      "revId": "788153f14b299412336d16a4e2b5416bcdf3b634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
