@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06e4bfd6_441fa20e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-07-10T16:12:27Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we make license headers match other makefiles in this repository?",
+      "revId": "b829fc9d7f426af56396abefa2064ddb36c808f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
