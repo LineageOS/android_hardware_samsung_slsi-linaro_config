@@ -223,6 +223,10 @@ ifeq ($(BOARD_USE_QUERY_HDR2SDR), true)
 $(call soong_config_set_bool,openmax,USE_QUERY_HDR2SDR,true)
 endif
 
+ifeq ($(BOARD_UNSUPPORT_10BIT), true)
+$(call soong_config_set_bool,openmax,UNSUPPORT_10BIT,true)
+endif
+
 ifdef BOARD_HDR_DYNAMIC_META_LIB
 $(call soong_config_set,openmax,HDR_DYNAMIC_META_LIB,$(BOARD_HDR_DYNAMIC_META_LIB))
 endif
