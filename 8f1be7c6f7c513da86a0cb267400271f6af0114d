@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1249956b_d34e73a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-10-23T19:47:15Z",
+      "side": 1,
+      "message": "Added -\u003e Add\nDropped -\u003e Drop\n\nBut even then it sounds a bit tacky, so maybe change those headers to something more appropriate.\n\nAnd also there is a typo with compositor",
+      "revId": "8f1be7c6f7c513da86a0cb267400271f6af0114d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
