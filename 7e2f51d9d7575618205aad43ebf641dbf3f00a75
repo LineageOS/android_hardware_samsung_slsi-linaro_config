@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6514f66f_acf8ba13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-10-23T19:35:26Z",
+      "side": 1,
+      "message": "wrong tense.\n\nConfigured -\u003e Configure\nEnabled -\u003e Enable\netc..",
+      "revId": "7e2f51d9d7575618205aad43ebf641dbf3f00a75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
