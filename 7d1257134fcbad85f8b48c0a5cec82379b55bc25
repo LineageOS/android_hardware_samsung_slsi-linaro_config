@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39db5b92_68ab2e30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-10-23T19:23:49Z",
+      "side": 1,
+      "message": "supported -\u003e list them out/list the features introduced\nsuperflous -\u003e same as above",
+      "revId": "7d1257134fcbad85f8b48c0a5cec82379b55bc25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
