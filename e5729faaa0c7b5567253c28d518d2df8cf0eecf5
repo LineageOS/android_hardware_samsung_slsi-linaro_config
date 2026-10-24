@@ -33,6 +33,24 @@
       "message": "BOARD_USE_FLEXIBLE_P010 should be removed as 8825 does not support it, and MALI_GPU_SUPPORT_AFBC_BASIC should be wired up for gralloc4 (at the moment it is only enabled by default for gralloc3).",
       "revId": "e5729faaa0c7b5567253c28d518d2df8cf0eecf5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "515ef14c_d7fca2dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-10-24T13:52:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a44f515d_4c16ced4",
+      "revId": "e5729faaa0c7b5567253c28d518d2df8cf0eecf5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
